@@ -1,0 +1,27 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "Meu Claude",
+          "summary": "Converse com o Claude pela Alexa.",
+          "description": "Faça perguntas abertas ao Claude e ouça a resposta na sua Alexa.",
+          "examplePhrases": [
+            "Alexa, abrir meu claude",
+            "Alexa, peça ao meu claude para explicar como funciona a fotossíntese",
+            "Alexa, pergunte ao meu claude o que posso cozinhar com ovo e tomate"
+          ],
+          "keywords": ["assistente", "perguntas", "claude"]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Uso pessoal, apenas em modo de desenvolvimento.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {}
+    },
+    "manifestVersion": "1.0"
+  }
+}

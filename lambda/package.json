@@ -1,0 +1,13 @@
+{
+  "name": "meu-claude-alexa",
+  "version": "1.0.0",
+  "description": "Skill da Alexa que responde perguntas usando o Claude.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^1.86.0"
+  }
+}

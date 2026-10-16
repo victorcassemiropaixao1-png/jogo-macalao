@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "meu claude",
+      "intents": [
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": ["tchau", "pode parar", "é só isso"] },
+        { "name": "AMAZON.NavigateHomeIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        {
+          "name": "AskIntent",
+          "slots": [{ "name": "query", "type": "AMAZON.SearchQuery" }],
+          "samples": [
+            "pergunte {query}",
+            "pergunta {query}",
+            "me diga {query}",
+            "me explique {query}",
+            "explique {query}",
+            "quero saber {query}",
+            "me ajude com {query}",
+            "o que é {query}",
+            "como {query}",
+            "por que {query}",
+            "quando {query}",
+            "qual {query}",
+            "para explicar {query}",
+            "para me dizer {query}",
+            "para saber {query}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
